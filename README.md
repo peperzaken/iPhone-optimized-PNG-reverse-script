@@ -1,11 +1,13 @@
 PHP script that reverses the iPhone PNG optimalisation by Peperzaken
 
-** INTRODUCTION **
+# INTRODUCTION #
 
 You can use this script to reverse the optimalisation process that Apple uses. It seems to be compatible with all the optimalisations that Apple does. For more info check out our blog post.
 
-** IMPLEMENTING THE SCRIPT **
-```
+# IMPLEMENTING THE SCRIPT #
+
+``
+
 	<?php
 	// Include the class
 	include 'Peperzaken/Ios/DecodeImage.php';
@@ -16,6 +18,7 @@ You can use this script to reverse the optimalisation process that Apple uses. I
 	// Process the image en write it to this path
 	$processor->decode('Icon@2x.regular.png');
 	?>
-```
+
+``
 
 We'l be adding more documentation to the code as we build it in to our project.
